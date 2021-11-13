@@ -16,7 +16,7 @@ Boas inferências!
 
 ## Requerimentos de sistema
 
-* Recomendado usar gerenciador de ambientes Miniconda
+* **Recomendado** utilizar o gerenciador de ambientes **Miniconda**
 * Python 3.6.7
 * Instalar os pacotes com o comando **pip**:
 	```
@@ -33,7 +33,7 @@ No repositório já possui uma rede neural LSTM treinada para Bossa Nova com o f
 python lstm.py
 ```
 
-**Observação**: Indicado colocar arquivos midis com apenas um tipo de Instrumento, também sendo possivel parar o processo de treinamento a qualquer momento com segurança, pois há uma callback que salva pesos da rede em cada época para retorno de treinamento ou para utilização do modelo em si.
+**Observação**: Indicado colocar arquivos midis com apenas um tipo de Instrumento, também sendo possivel parar o processo de treinamento a qualquer momento com segurança, pois há uma callback que salva pesos da rede em cada época para em um póssível retorno de treinamento ou para utilização do modelo em si.
 
 ## Inferência de Músicas
 
@@ -56,7 +56,7 @@ python predict_(O método de output selecionado).py
 
 ## Referências
 
-Esse sistema foi baseado na abordagem de [Sigurður Skúli](https://medium.com/@sigurdurssigurg) no artigo Medium [How to Generate Music using a LSTM Neural Network in Keras](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5). Os códigos originais estão disponpiveis nesse [link](https://github.com/Skuldur/Classical-Piano-Composer)
+Esse sistema foi baseado na abordagem de [Sigurður Skúli](https://medium.com/@sigurdurssigurg) no Artigo Medium [How to Generate Music using a LSTM Neural Network in Keras](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5). Os códigos originais estão disponiveis nesse [link](https://github.com/Skuldur/Classical-Piano-Composer).
 
 
 # Output Sampling Methods in Music Generation  - EN
@@ -67,7 +67,7 @@ This project allows you to train a neural network to generate midi music files t
 
 * **Is suggested** installing the Miniconda for python enviroment management
 * Python 3.6.7
-* Installing the packages using pip in requirements.txt file:
+* Install the packages using pip in requirements.txt file:
 	```
 	pip install -r requirements.txt
 	```
