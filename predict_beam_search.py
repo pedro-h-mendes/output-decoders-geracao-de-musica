@@ -172,7 +172,7 @@ def create_network(network_input, n_vocab):
     model.compile(loss='categorical_crossentropy', optimizer='adam')
 
     # Load the weights to each node
-    model.load_weights('weights4.hdf5')
+    model.load_weights('model/weights4.hdf5')
 
     return model
 
@@ -230,7 +230,7 @@ def create_midi(prediction_output):
 
     midi_stream = stream.Stream(output_notes)
 
-    midi_stream.write('midi', fp='test_output.mid')
+    midi_stream.write('midi', fp='test_output_beam_search.mid')
 
 if __name__ == '__main__':
     generate()
