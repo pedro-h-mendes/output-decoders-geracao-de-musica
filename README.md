@@ -4,6 +4,8 @@ Esse sistema é resultado de um TCC da Pós de Ciência de Dados e Machine Learn
 
 Mais detalhes da pesquisa podem ser acessados nesse [Link](http://a.com) com o artigo para download.
 
+Base de dados das músicas utilizadas no treinamento podem ser acessados e baixados nesse [Link](http://a.com). 
+
 Musicas geradas na pesquisa estão complidadas nesse [Link](https://soundcloud.com/pedro-mendes-116/sets/metodos-de-output-sampling-na-geracao-de-musica-em-redes-neurais).
 
 Qualquer dívidas sobre o trabalho podem ser enviadas no email: pedro.mendes@sempreceub.com
@@ -16,7 +18,7 @@ Boas inferências!
 
 * Recomendado usar gerenciador de ambientes Miniconda
 * Python 3.6.7
-* Instalar os pacotes com o comando **pip**
+* Instalar os pacotes com o comando **pip**:
 	```
 	pip install -r requirements.txt
 	```
@@ -27,9 +29,9 @@ Boas inferências!
 
 No repositório já possui uma rede neural LSTM treinada para Bossa Nova com o filename **weights4.hdf5**. Caso queria gerar uma nova rede neural com novas músicas ou ajustes, deposite os arquivos .midi quistos na pasta **./midi_songs** e rode o comando abaixo:
 
-```
-python lstm.py
-```
+	```
+	python lstm.py
+	```
 
 **Observação**: Indicado colocar arquivos midis com apenas um tipo de Instrumento, também sendo possivel parar o processo de treinamento a qualquer momento com segurança, pois há uma callback que salva pesos da rede em cada época para retorno de treinamento ou para utilização do modelo em si.
 
@@ -44,9 +46,11 @@ Com a rede neural treinada é possivel inferir novas amostras de músicas de 2 m
 * predict_top_k.py
 * predict_top_p.py
 
-```
-python predict_(O método de output selecionado).py
-```
+Rodar esse comando:
+
+	```
+	python predict_(O método de output selecionado).py
+	```
 
 **Observação**: Alguns dos métodos listados possuem hiperparâmetros específicos, é indicado que entre nos códigos de **predict** e modifique esses parametros para testar a inferência.
 
