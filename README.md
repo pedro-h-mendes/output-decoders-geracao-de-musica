@@ -29,9 +29,9 @@ Boas inferências!
 
 No repositório já possui uma rede neural LSTM treinada para Bossa Nova com o filename **weights4.hdf5**. Caso queria gerar uma nova rede neural com novas músicas ou ajustes, deposite os arquivos .midi quistos na pasta **./midi_songs** e rode o comando abaixo:
 
-	```
-	python lstm.py
-	```
+```
+python lstm.py
+```
 
 **Observação**: Indicado colocar arquivos midis com apenas um tipo de Instrumento, também sendo possivel parar o processo de treinamento a qualquer momento com segurança, pois há uma callback que salva pesos da rede em cada época para retorno de treinamento ou para utilização do modelo em si.
 
@@ -53,6 +53,10 @@ python predict_(O método de output selecionado).py
 ```
 
 **Observação**: Alguns dos métodos listados possuem hiperparâmetros específicos, é indicado que entre nos códigos de **predict** e modifique esses parametros para testar a inferência.
+
+## Referências
+
+Esse sistema foi baseado na abordagem de [Sigurður Skúli](https://medium.com/@sigurdurssigurg) no artigo Medium [How to Generate Music using a LSTM Neural Network in Keras](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5). Os códigos originais estão disponpiveis nesse [link](https://github.com/Skuldur/Classical-Piano-Composer)
 
 
 # Output Sampling Methods in Music Generation  - EN
