@@ -76,7 +76,7 @@ def create_network(network_input, n_vocab):
     model.compile(loss='categorical_crossentropy', optimizer='adam')
 
     # Load the weights to each node
-    model.load_weights('weights4.hdf5')
+    model.load_weights('/model/weights4.hdf5')
 
     return model
 
