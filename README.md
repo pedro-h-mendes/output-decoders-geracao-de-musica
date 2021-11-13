@@ -4,7 +4,7 @@ Esse sistema é resultado de um TCC da Pós de Ciência de Dados e Machine Learn
 
 Mais detalhes da pesquisa podem ser acessados nesse [Link](http://a.com) com o artigo para download.
 
-Base de dados das músicas utilizadas no treinamento podem ser acessados e baixados nesse [Link](http://a.com). 
+Base de dados das músicas utilizadas no treinamento podem ser acessados e baixados nesse [Link](https://www.kaggle.com/macchi57/bossa-nova-midi). 
 
 Musicas geradas na pesquisa estão complidadas nesse [Link](https://soundcloud.com/pedro-mendes-116/sets/metodos-de-output-sampling-na-geracao-de-musica-em-redes-neurais).
 
@@ -48,9 +48,9 @@ Com a rede neural treinada é possivel inferir novas amostras de músicas de 2 m
 
 Rodar esse comando:
 
-	```
-	python predict_(O método de output selecionado).py
-	```
+```
+python predict_(O método de output selecionado).py
+```
 
 **Observação**: Alguns dos métodos listados possuem hiperparâmetros específicos, é indicado que entre nos códigos de **predict** e modifique esses parametros para testar a inferência.
 
